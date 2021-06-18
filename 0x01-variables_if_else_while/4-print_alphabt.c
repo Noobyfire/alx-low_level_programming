@@ -10,11 +10,21 @@ int main(void)
 {
 	char i = 'a';
 
-	while (i <= 'z')
-	{
+	do {
+		if (i == 'e')
+		{
+			i = i + 1;
+			continue;
+		}
+		else if (i == 'q')
+		{
+			i = i + 1;
+			continue;
+		}
 		putchar(i);
 		i++;
-	}
+	} while (i <= 'z');
+
 	putchar('\n');
 	return (0);
 }

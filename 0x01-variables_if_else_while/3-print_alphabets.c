@@ -9,12 +9,17 @@
 int main(void)
 {
 	char i = 'a';
+	char b = 'A';
 
-	while (i <= 'z')
-	{
+	do {
 		putchar(i);
 		i++;
-	}
+	} while (i <= 'z');
+	do {
+		putchar(b);
+		b++;
+	} while (b <= 'Z');
+
 	putchar('\n');
 	return (0);
 }
