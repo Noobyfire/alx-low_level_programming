@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * main - check the code for ALX School students.
+ * print_alphabet - printing alphabet
  *
-Return: Always 0.
-*/
+ * Return: Always 0.
+ */
 void print_alphabet(void)
 {
 	int i = 'a';
@@ -15,5 +15,4 @@ void print_alphabet(void)
 	i++;
 	}
 	_putchar('\n');
-	return (0);
 }
